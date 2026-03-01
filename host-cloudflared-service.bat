@@ -46,4 +46,3 @@ cloudflared tunnel run --token %TOKEN%
 
 echo.
 echo %RED%[STOP]%RESET% Tunnel stopped.
-pause
