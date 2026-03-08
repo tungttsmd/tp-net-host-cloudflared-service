@@ -21,6 +21,7 @@ if !errorlevel! == 0 (
 )
 echo.
 echo  %CYAN%[INFO]%RESET%  Uninstalling via winget...
+echo.
 winget uninstall Cloudflare.cloudflared
 if !errorlevel! == 0 (
     echo.
